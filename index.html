@@ -1,37 +1,47 @@
 <html>
-<head></head>
-    <meta charset="utf-8">
-<script scr="exa2js.js" type="text/JavaScript"></script>
-    <link href="efectos_01.css" rel="stylesheet" type="text/css">
-<body><center>
-		<p class="enca_mediano">Formulario codificador</p>
-		<table class="tabla" border="3" width="70%">
-			<form name="forma">
+	<head>
+		<meta charset="utf-8">
+		<title>Encripción</title>
+		<link href="efectos_01.css" rel="stylesheet" type="text/css">
+		<script src="exa2js.js" type="text/JavaScript"></script>
+	</head>
+	<body bgcolor=""><center>
+		<br> <br><br>
+		<table border="3" width="70%">
+			<form name="fr">
 				<tr align="center">
-					<td>Indica tu palabra</td>
-					<td><input name="texto" type="text" size="15" class="campo"></td>
-				</tr>
-            <tr align="center">
-            <td>Indica cual deseas</td>
-				<td>
-             <input name="s" type="radio" value="1"> Codificar<br>
-             <input name="t" type="radio" value="2"> Decodificar<br>
-                  </td>
-					</tr>
+					<td colspan="2" class="encaMediano">
 
-	<tr align="center">
-        <td > <input name="bejecutar" type="button" class="boton" value="Ejecutar" onclick="ejecuta()"></td>
-        <td><input name="bejecutar" type="reset" value="Borrar" class="boton" > </td>
+							Encripción de datos
+					</td>
 				</tr>
-    <tr align="center">
-<td colspan="3">El resultado es...</td>
+				<tr align="center">
 
-                </tr>
-                <tr align="center">
-        <td colspan="3"><input name="salida_color_fondo" type="text" size="15" class="campo" readonly="true"></td>
-                    </tr>
+					<td class="encaChico"> Indica la palabra</td>
+					<td> <input type="text" size="20" name="pal" class="campo"  maxlength="20" onclick="resetear()"> </td>
+				</tr>
+				<tr align="center">
+					<td class="encaChico"> Selecciona un modo </td>
+					<td>
+						<select name="op" class="campo">
+							<option value="1">Codificar</option>
+							<option value="2">Decodificar</option>
+						</select>
+					</td>
+				</tr>
+				<tr align="center">
+					<td colspan="1">
+						<input name="bejecutar" type="button" class="boton" value="Ejecutar" onClick="convertir()">
+					</td>
+					<td colspan="1">
+						<input name="bborrar" type="reset" class="boton" value="Borrar">
+					</td>
+				</tr>
+				<tr align="center">
+					<td colspan="2">
+						<input name="salida" type="text" size="20" class="campo" readonly="true">
+					</td>
+				</tr>
 			</form>
 		</table>
-    </center>
-    </body>
 </html>
