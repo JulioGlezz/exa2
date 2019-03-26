@@ -1,0 +1,47 @@
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>Encripción</title>
+		<link href="efectos_01.css" rel="stylesheet" type="text/css">
+		<script src="exa2js.js" type="text/JavaScript"></script>
+	</head>
+	<body bgcolor=""><center>
+		<br> <br><br>
+		<table border="3" width="70%">
+			<form name="fr">
+				<tr align="center">
+					<td colspan="2" class="encaMediano">
+
+							Encripción de datos
+					</td>
+				</tr>
+				<tr align="center">
+
+					<td class="encaChico"> Indica la palabra</td>
+					<td> <input type="text" size="20" name="pal" class="campo"  maxlength="20" onclick="resetear()"> </td>
+				</tr>
+				<tr align="center">
+					<td class="encaChico"> Selecciona un modo </td>
+					<td>
+						<select name="op" class="campo">
+							<option value="1">Codificar</option>
+							<option value="2">Decodificar</option>
+						</select>
+					</td>
+				</tr>
+				<tr align="center">
+					<td colspan="1">
+						<input name="bejecutar" type="button" class="boton" value="Ejecutar" onClick="convertir()">
+					</td>
+					<td colspan="1">
+						<input name="bborrar" type="reset" class="boton" value="Borrar">
+					</td>
+				</tr>
+				<tr align="center">
+					<td colspan="2">
+						<input name="salida" type="text" size="20" class="campo" readonly="true">
+					</td>
+				</tr>
+			</form>
+		</table>
+</html>
