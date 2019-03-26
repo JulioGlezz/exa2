@@ -1,0 +1,77 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins");
+
+p {
+	font-family: "Poppins", sans-serif;
+	font-size: 150%;
+}
+
+body
+{
+	background-color:#efca8c;
+	color:blue;
+	font-size:16pt;
+	font-weight:bold;
+	/*font-family:Kristen ITC;*/
+}
+
+.enca_chico
+{
+	background-color:#7fe7cc;
+	border-radius:10px;
+	border-style:inset;
+	border-color:white;
+	color:white;
+	font-family:Kristen ITC;
+	font-size:16pt;
+	font-weight:bold;
+	text-shadow:3px 3px black;
+	width:70%;
+}
+
+.enca_mediano
+{
+	background-color:#7fe7cc;
+	border-radius:10px;
+	border-style:inset;
+	border-color:white;
+	color:#f17e7e;
+	font-family:Poppins;
+	font-size:20pt;
+	font-weight:bold;
+
+	width:80%;
+}
+
+.enca_grande
+{
+	background-color:#7fe7cc;
+	border-radius:10px;
+	border-style:inset;
+	border-color:white;
+	color:white;
+	font-family:Kristen ITC;
+	font-size:24pt;
+	font-weight:bold;
+	text-shadow:3px 3px black;
+	width:90%;
+}
+
+.imagenes
+{
+	border-radius:20px;
+	border-style:solid;
+	border-color:black;
+	height:250px;
+	width:300px;
+}
+.tabla
+{
+    font-family: Poppins;
+    color:3a9679;
+    font-size:12pt;
+}
+.boton{
+    font-family: Poppins;
+    font-size:12pt;
+    background-color: #dfe38e;
+}
